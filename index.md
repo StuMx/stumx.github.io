@@ -1,4 +1,4 @@
-[![Image](assets/icon_twitter_64.png)](https://twitter.com/stumx)
+[![Image](assets/icon_twitter_64.png)](https://twitter.com/stumx) [![Image](assets/icon_instagram_64.png)](https://www.instagram.com/estumx/) [![Image](assets/icon_github_64.png)](https://github.com/StuMx) [![Image](assets/icon_stackoverflow_64.png)](https://stackoverflow.com/users/954198/benjam%C3%ADn-mart%C3%ADnez)
 
 
 ## Welcome to GitHub Pages
