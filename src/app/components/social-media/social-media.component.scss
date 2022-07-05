@@ -1,0 +1,30 @@
+.social {
+    position: absolute;
+    top: 1vw;
+    right: 3vw;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li {
+    display: inline-flex;
+    width: 5vw;
+    transition: all .2s ease-in-out;
+    fill: #ffffff;
+}
+
+.social ul li+li {
+    margin: 0.5vw;
+}
+
+.social ul li:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: #ffffff;
+    fill: #ffffff;
+    text-decoration: none;
+}
