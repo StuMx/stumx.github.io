@@ -9,7 +9,13 @@ export class BackgroundComponent implements OnInit {
 
   constructor() { }
 
+  backgroundLoaded: boolean = false;
+
   ngOnInit(): void {
+  }
+
+  public onImageLoad() {
+    this.backgroundLoaded = true;
   }
 
 }

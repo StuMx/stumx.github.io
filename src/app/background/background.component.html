@@ -1,4 +1,5 @@
 <div class="background__wrapper">
-    <div class="background__image"></div>
+    <img src="assets/background.jpg" (load)="onImageLoad()">
+    <div class="background__image" [ngClass]="{'background__image--loaded': backgroundLoaded}"></div>
     <div class="background__blend"></div>
 </div>
