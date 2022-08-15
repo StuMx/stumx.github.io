@@ -1,2 +1,17 @@
+<app-menu (visibilityChange)="updateMenuState($event)">
+    <p>
+        <button stu-menu-item [show]="isMenuOpen"> About </button><br>
+        <a stu-menu-item [show]="isMenuOpen"> Gaming </a><br>
+        <a stu-menu-item [show]="isMenuOpen"> Contact </a>
+    </p>
+    <app-wave [show]="isMenuOpen"></app-wave>
+    
+    <div right-pane>
+        <a stu-menu-item [show]="isMenuOpen" size="small" href="https://dev.to/stumx"> dev.to </a><br>
+        <a stu-menu-item [show]="isMenuOpen" size="small" href="https://github.com/StuMx"> github </a><br>
+        <a stu-menu-item [show]="isMenuOpen" size="small" href="https://www.instagram.com/estumx/"> Instagram </a><br>
+        <a stu-menu-item [show]="isMenuOpen" size="small" href="https://twitter.com/stumx"> Twitter </a>
+    </div>
+</app-menu>
 <app-background></app-background>
 <app-page-landing></app-page-landing>

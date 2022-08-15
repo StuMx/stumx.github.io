@@ -1,0 +1,12 @@
+<div class="menu__button" (click)="toggleMenu()" [ngClass]="{'menu__button--open': isOpen}">
+    <!-- {{isOpen? 'CLOSE' : 'MENU'}} -->
+</div>
+<div class="menu__container" [hidden]="!isOpen">
+    <div class="menu__left" [ngClass]="{'menu__left--open': isOpen}">
+        <ng-content></ng-content>
+    </div>
+    <div class="menu__right" [ngClass]="{'background__image--loaded': backgroundLoaded, 'menu__right--open': isOpen}">
+        <img src="assets/background.jpg" (load)="onImageLoad()">
+        <ng-content select="[right-pane]"></ng-content>
+    </div>
+</div>
