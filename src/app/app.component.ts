@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'stumx.info';
+  isMenuOpen: boolean = false;
+
+  public updateMenuState(isMenuOpen: boolean) {
+    this.isMenuOpen = isMenuOpen;
+  }
 }

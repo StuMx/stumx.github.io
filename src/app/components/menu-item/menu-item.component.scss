@@ -1,0 +1,39 @@
+:host {
+    border: 0;
+    padding: 0.5rem 0 0 2rem;
+    font: inherit;
+    color: inherit;
+    background: transparent;
+    cursor: pointer;
+    clip-path: inset(0);
+    display: inline-block;
+}
+
+:host:hover {
+    color: #DE5998;
+}
+
+:host(.fadeIn){
+    animation: fadeIn 15s;
+}
+
+.fadeIn {
+    animation: fadeIn 0.8s;
+}
+
+span {
+    display: inline-block;
+}
+
+span.large {
+    font-size: 3rem;
+}
+
+span.small {
+    font-size: 2rem;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translate(0, 100%); }
+    100% { opacity: 1; transform: translate(0, 0); }
+}

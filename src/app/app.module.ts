@@ -8,6 +8,8 @@ import { PageLandingComponent } from './page-landing/page-landing.component';
 import { PresentationComponent } from './components/presentation/presentation.component';
 import { SocialMediaComponent } from './components/social-media/social-media.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { MenuItemComponent } from './components/menu-item/menu-item.component';
+import { WaveComponent } from './components/wave/wave.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { MenuComponent } from './components/menu/menu.component';
     PageLandingComponent,
     PresentationComponent,
     SocialMediaComponent,
-    MenuComponent
+    MenuComponent,
+    MenuItemComponent,
+    WaveComponent
   ],
   imports: [
     BrowserModule,
